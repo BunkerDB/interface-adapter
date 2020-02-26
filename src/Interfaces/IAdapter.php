@@ -16,14 +16,10 @@ use Psr\Log\LoggerInterface;
  */
 interface IAdapter
 {
-    /**
-     * Adapter constructor.
-     * @param array $params
-     * @param LoggerInterface|null $logger
-     * @param EventManager|null $eventManager
-     * @throws DBALException
-     */
-    public function __construct(array $params, ?LoggerInterface $logger = null, ?EventManager $eventManager = null);
+    const CREATE = 'IAdapter::CREATE';
+    const UPDATE = 'IAdapter::UPDATE';
+    const DELETE = 'IAdapter::DELETE';
+    const FETCH = 'IAdapter::FETCH';
 
     /**
      * @return Connection
