@@ -19,7 +19,7 @@
             "src/"
         ],
         "psr-4": {
-            "Cratia\\ORM\\DBAL\\Adapter": "src/"
+            "Cratia\\ORM\\DBAL\\Adapter\\": "src/"
         }
     }
 }
