@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 
-namespace Cratia\ORM\DBAL\Interfaces;
+namespace Cratia\ORM\DBAL\Adapter\Interfaces;
 
 use Doctrine\Common\EventManager;
 use Doctrine\DBAL\Connection;
@@ -12,7 +12,7 @@ use Psr\Log\LoggerInterface;
 
 /**
  * Interface IAdapter
- * @package Cratia\ORM\DBAL\Interfaces
+ * @package Cratia\ORM\DBAL\Adapter\Interfaces
  */
 interface IAdapter
 {
