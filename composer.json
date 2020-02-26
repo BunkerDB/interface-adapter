@@ -1,0 +1,25 @@
+{
+    "name": "cratia/interface-adapter",
+    "description": "Define abstraction para crear y ejecutar sobre instancias de Doctrine\\DBAL\\Connection",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Ratia",
+            "email": "cratia.github@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "psr/log": "^1.1",
+        "doctrine/dbal": "^2.10"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "Cratia\\ORM\\DBAL\\": "src/"
+        }
+    }
+}
