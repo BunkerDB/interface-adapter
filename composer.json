@@ -9,7 +9,6 @@
             "email": "cratia.github@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "php": ">=8.3",
         "psr/log": "^3.0",
