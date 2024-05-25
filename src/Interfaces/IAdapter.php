@@ -6,7 +6,7 @@ namespace Cratia\ORM\DBAL\Adapter\Interfaces;
 
 use Doctrine\Common\EventManager;
 use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\DBALException;
+use Exception as DBALException;
 use Psr\Log\LoggerInterface;
 
 
