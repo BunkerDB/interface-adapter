@@ -21,6 +21,5 @@
         "psr-4": {
             "Cratia\\ORM\\DBAL\\Adapter\\": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
